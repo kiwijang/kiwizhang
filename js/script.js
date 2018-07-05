@@ -235,7 +235,7 @@ return Splitting;
 })));
 
 
-// -----------------開始--------------------------
+// -----------------index開始--------------------------
 
 // console.clear();
 
@@ -298,5 +298,6 @@ document.addEventListener('keyup', e => {
 // elMenu.addEventListener('click', () => {
 //   elMenu.classList.toggle('-visible');
 // });
+
 
 

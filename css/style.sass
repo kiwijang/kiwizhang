@@ -23,6 +23,9 @@ html,body
 // -------------選單欄------------------
 button:focus,input:focus
   outline: none
+.row
+  margin: 0
+  padding: 0
 
 .ui-sidebar
   border-left: 2px solid #FFF100
@@ -93,7 +96,7 @@ button:focus,input:focus
 ul
   color: white
 .ui-right article
-  padding: 0
+  padding: 10px
   margin: 40% 8vw
   display: flex
   position: absolute
@@ -126,16 +129,17 @@ ul
     white-space: nowrap
 // -------------漢堡---------------------------
 .ui-button
-  height: 30px
-  width: 30px
+  height: 60px
+  width: 60px
   z-index: 2
+  transform: rotate(-90deg)
   transform-style: preserve-3d
   perspective: 50px
   cursor: pointer
   &:before, &:after 
     content: ''
     position: absolute
-    height: 3px
+    height: 4px
     width: 50px
     margin: 10px 0 0 0
     background-color: black
@@ -288,3 +292,5 @@ $layer-duration: .6s
   padding:　20px
   .ui-section
     padding: 10px
+// -----------------------------------
+
